@@ -197,7 +197,7 @@ function draw() {
     Body.setStatic(snake4.body, true);
     Body.setStatic(snake5.body, true);
     Body.setStatic(fl.ground, true);
-    engine.world.gravity.y = 0;
+    // engine.world.gravity.y = 0;
     bg = createSprite(width / 2, height / 2, width, height);
     bg.shapeColor = 'aliceblue';
     fill('red');
